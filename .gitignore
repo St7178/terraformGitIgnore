@@ -1,0 +1,11 @@
+# Ignorar archivos generados por Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# Ignorar archivos temporales y del sistema
+*.log
+*.bak
+*.swp
+*.tmp
